@@ -1,9 +1,16 @@
 :root {
   --mainColor: #d6a701;
+  --mainwhite: #f3f3f3;
+  --mainPurple: #7c4cdb;
 }
 
 body {
-  font-family: "CircularStd-book", sans-serif !important;
+  font-family: Arial !important;
   font-weight: 500 !important;
-  font-size: 20px !important;
+  font-size: 17px !important;
+  background: var(--mainwhite) !important;
+  color: #333333 !important;
+}
+.text-purple {
+  color: var(--mainColor);
 }

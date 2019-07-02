@@ -6,9 +6,9 @@ import {
   MDBNavItem,
   MDBNavLink,
   MDBNavbarToggler,
-  MDBCollapse,
-  MDBIcon
+  MDBCollapse
 } from "mdbreact";
+import { Button } from "@bit/grommet.grommet.button";
 
 import { Link } from "react-router-dom";
 import logo from "../logo.png";
@@ -25,18 +25,25 @@ class NavbarPage extends Component {
   render() {
     return (
       <MDBNavbar
-        style={{ color: "black", fontWeight: "" }}
+        style={{
+          color: "black",
+          fontWeight: "",
+          background: "#ffffff"
+        }}
         color="default-color"
         expand="md"
       >
-        <MDBNavbarBrand>
-          <strong
-            className="white-text"
-            style={{ color: "#D6A701", fontFamily: "Hack" }}
-          >
-            KISMET
-          </strong>
-        </MDBNavbarBrand>
+        <Link to="/">
+          <MDBNavbarBrand>
+            <strong
+              className="white-text"
+              style={{ color: "#D6A701", fontFamily: "Hack" }}
+            >
+              KISMET
+            </strong>
+          </MDBNavbarBrand>
+        </Link>
+
         {/* <Link to="/">
           <img
             src={logo}
@@ -49,34 +56,49 @@ class NavbarPage extends Component {
           onClick={this.toggleCollapse}
         />
         <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
-          <MDBNavbarNav left>
+          <MDBNavbarNav left />
+          <MDBNavbarNav style={{ color: "black" }} right>
             <MDBNavItem>
-              <MDBNavLink style={{ color: "black" }} to="/">
+              <MDBNavLink
+                style={{ color: "black", textAlign: "center" }}
+                to="/"
+              >
                 Home
               </MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink style={{ color: "black" }} to="/products">
+              <MDBNavLink
+                style={{ color: "black", textAlign: "center" }}
+                to="/products"
+              >
                 Products
               </MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink style={{ color: "black" }} to="#!">
-                Pricing
-              </MDBNavLink>
-            </MDBNavItem>
-          </MDBNavbarNav>
-          <MDBNavbarNav style={{ color: "black" }} right>
-            <MDBNavItem>
-              <MDBNavLink className="waves-effect waves-dark" to="#!">
-                <MDBIcon style={{ color: "black" }} icon="search" />
+              <MDBNavLink
+                style={{ color: "black", textAlign: "center" }}
+                to="/about"
+              >
+                About
               </MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink className="waves-effect waves-light" to="#!">
-                <MDBIcon style={{ color: "black" }} icon="shopping-cart" />
+              <MDBNavLink
+                style={{ color: "black", textAlign: "center" }}
+                to="/contact"
+              >
+                Contact
               </MDBNavLink>
             </MDBNavItem>
+            <Link to="/cart" style={{ textAlign: "center" }}>
+              <Button
+                primary={false}
+                style={{
+                  borderColor: "#D6A701"
+                }}
+                label="My Cart"
+              />
+            </Link>
           </MDBNavbarNav>
         </MDBCollapse>
       </MDBNavbar>
