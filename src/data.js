@@ -26,7 +26,8 @@ export const storeProducts = [
     title: "Hydrating Face Cream",
     img: "img/sabrina_48.jpg",
     price: 5000,
-    info: "hdh ddjdhd jdjdjdjdf",
+    info:
+      "This face cream has been proven to clear sunburn, hyper pigmentation, acne scars, and any kind of blemishes on the face. Ingredients: aqua, rose cream, licorice extract, stearic acid, glutathione, alpha arbutin, Niacinamide, rose water.",
     inCart: false,
     count: 0,
     total: 0
