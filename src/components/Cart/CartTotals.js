@@ -1,8 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@bit/grommet.grommet.button";
+import PaystackButton from "./PaystackButton";
 
-export default function CartTotals({ value }) {
+export default function CartTotals({ value, history }) {
   const { cartSubTotal, cartTotal, clearCart } = value;
   return (
     <React.Fragment>
@@ -33,6 +34,11 @@ export default function CartTotals({ value }) {
               <span className="text-title">total :</span>
               <strong>N{cartTotal}</strong>
             </h5>
+            <PaystackButton
+              total={cartTotal}
+              clearCart={clearCart}
+              history={history}
+            />
           </div>
         </div>
       </div>

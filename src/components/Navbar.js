@@ -74,22 +74,7 @@ class NavbarPage extends Component {
                 Products
               </MDBNavLink>
             </MDBNavItem>
-            <MDBNavItem>
-              <MDBNavLink
-                style={{ color: "black", textAlign: "center" }}
-                to="/about"
-              >
-                About
-              </MDBNavLink>
-            </MDBNavItem>
-            <MDBNavItem>
-              <MDBNavLink
-                style={{ color: "black", textAlign: "center" }}
-                to="/contact"
-              >
-                Contact
-              </MDBNavLink>
-            </MDBNavItem>
+
             <Link to="/cart" style={{ textAlign: "center" }}>
               <Button
                 primary={false}

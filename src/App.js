@@ -9,22 +9,19 @@ import Details from "./components/Details";
 import Cart from "./components/Cart";
 import Default from "./components/Default";
 import Home from "./components/Home";
-import About from "./components/About";
-import Contact from "./components/Contact";
-
+import Footer from "./components/Footer";
 function App() {
   return (
     <React.Fragment>
       <MyNavbar />
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/contact" component={Contact} />
         <Route path="/products" component={ProductList} />
         <Route path="/details" component={Details} />
         <Route path="/cart" component={Cart} />
         <Route component={Default} />
       </Switch>
+      <Footer />
     </React.Fragment>
   );
 }

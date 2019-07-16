@@ -52,7 +52,8 @@ export default class Details extends Component {
                     <Button
                       primary={false}
                       style={{
-                        borderColor: "#D6A701"
+                        borderColor: "#D6A701",
+                        padding: "5px"
                       }}
                       label="Add to Cart"
                       disabled={inCart ? true : false}
