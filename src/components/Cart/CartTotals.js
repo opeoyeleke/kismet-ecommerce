@@ -7,9 +7,9 @@ export default function CartTotals({ value, history }) {
   const { cartSubTotal, cartTotal, clearCart } = value;
   return (
     <React.Fragment>
-      <div className="container">
-        <div className="row">
-          <div className="col-10 mt-2 ml-sm-5 ml-md-auto col-sm-8 text-capitalize text-right">
+      <div className="container" style={{ textAlign: "center" }}>
+        <div className="row" style={{ textAlign: "center" }}>
+          <div className="col-12 mt-2  text-capitalize text-center">
             <Link to="/">
               <Button
                 primary={false}
@@ -30,7 +30,7 @@ export default function CartTotals({ value, history }) {
               <span className="text-title">subtotal :</span>
               <strong>N{cartSubTotal}</strong>
             </h5>
-            <h5>
+            <h5 style={{ textAlign: "center" }}>
               <span className="text-title">total :</span>
               <strong>N{cartTotal}</strong>
             </h5>
@@ -38,6 +38,7 @@ export default function CartTotals({ value, history }) {
               total={cartTotal}
               clearCart={clearCart}
               history={history}
+              style={{ textAlign: "center" }}
             />
           </div>
         </div>

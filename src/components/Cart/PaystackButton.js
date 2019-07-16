@@ -5,7 +5,7 @@ import PaystackButton from "react-paystack";
 class App extends Component {
   state = {
     key: "pk_test_59322c83eb3fec7011ea5d93da1590eb017f4927", //PAYSTACK PUBLIC KEY
-    email: "foobar@example.com", // customer email
+    email: "topfemo@gmail.com", // customer email
     amount: 10000 //equals NGN100,
   };
 
