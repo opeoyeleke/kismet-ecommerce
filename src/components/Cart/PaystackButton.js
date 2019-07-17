@@ -4,13 +4,14 @@ import PaystackButton from "react-paystack";
 
 class App extends Component {
   state = {
-    key: "pk_test_59322c83eb3fec7011ea5d93da1590eb017f4927", //PAYSTACK PUBLIC KEY
-    email: "topfemo@gmail.com", // customer email
-    amount: 10000 //equals NGN100,
+    key: process.env.REACT_APP_APP_ID, //PAYSTACK PUBLIC KEY
+    email: "topfemo@gmail.com" // customer email
   };
 
   callback = response => {
     console.log(response); // card charged successfully, get reference here
+    this.props.clearCart();
+    this.props.history.push("/");
   };
 
   close = () => {
@@ -42,7 +43,7 @@ class App extends Component {
             embed={true}
             reference={this.getReference()}
             email={this.state.email}
-            amount={this.state.amount}
+            amount={this.props.total}
             paystackkey={this.state.key}
             tag="button"
           />
