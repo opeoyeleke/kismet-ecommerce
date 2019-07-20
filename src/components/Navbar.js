@@ -32,8 +32,7 @@ class NavbarPage extends Component {
               <div className="col-lg-3 col-md-3 col-6 order-lg-1 order-md-1 order-1">
                 <div className="logo">
                   <Link to="/">
-                    {/* <img src="assets/images/logo-white.png" alt="true" /> */}
-                    KISMET
+                    <img src="assets/images/logo-white.png" alt="true" />
                   </Link>
                 </div>
               </div>
