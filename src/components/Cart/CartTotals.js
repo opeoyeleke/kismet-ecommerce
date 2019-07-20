@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@bit/grommet.grommet.button";
 import PaystackButton from "./PaystackButton";
-import Input from "@bit/ans.base-ui.input";
 
 export default function CartTotals({ value, history }) {
   const { cartSubTotal, cartTotal, clearCart } = value;
@@ -16,8 +15,10 @@ export default function CartTotals({ value, history }) {
               <Button
                 primary={false}
                 style={{
-                  borderColor: "red",
-                  fontSize: "16px"
+                  background: "#CEA679",
+                  color: "#ffffff",
+                  borderColor: "#CEA679",
+                  marginBottom: "10px"
                 }}
                 label="Clear Cart"
                 onClick={() => {

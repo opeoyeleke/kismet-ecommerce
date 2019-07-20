@@ -10,16 +10,17 @@ export default class Product extends Component {
     const { id, title, img, price, inCart } = this.props.product;
     return (
       <ProductWrapper className="col-9 mx-auto col-md-6 col-lg-3 my-3">
-        <div className="card">
+        <div className="single-product mb-30">
           <ProductConsumer>
             {value => (
               <div
-                className="img-container p-5"
+                className="product-img"
                 onClick={() => value.handleDetail(id)}
               >
                 <Link to="/details">
                   <img src={img} alt="product" className="card-img-top" />
                 </Link>
+                <span className="sticker">New</span>
               </div>
             )}
           </ProductConsumer>
@@ -30,17 +31,24 @@ export default class Product extends Component {
                 style={{ textAlign: "center", borderTop: "0px" }}
               >
                 <p className="align-self-center mb-0">{title}</p>
-                <h5
-                  className="mb-0"
-                  style={{ color: "#D6A701", fontSize: "90%" }}
-                >
+                <div className="ratting">
+                  <i className="fa fa-star" />
+                  <i className="fa fa-star" />
+                  <i className="fa fa-star" />
+                  <i className="fa fa-star" />
+                  <i className="fa fa-star-o" />
+                </div>
+                <h5 className="mb-0" style={{ color: "#343A40" }}>
                   <span className="mr-1">N</span>
                   {price}
                 </h5>
                 <Button
-                  primary={false}
+                  primary={true}
                   style={{
-                    borderColor: "#D6A701",
+                    background: "#CEA679",
+                    color: "#ffffff",
+                    borderColor: "#CEA679",
+                    marginTop: "5px",
                     fontSize: "16px"
                   }}
                   label="Add to Cart"
