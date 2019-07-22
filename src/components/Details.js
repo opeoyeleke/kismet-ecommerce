@@ -112,7 +112,8 @@ export default class Details extends Component {
                           style={{
                             background: "#CEA679",
                             color: "#ffffff",
-                            borderColor: "#CEA679"
+                            borderColor: "#CEA679",
+                            marginLeft: "5px"
                           }}
                           label="Add to Cart"
                           disabled={inCart ? true : false}

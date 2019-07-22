@@ -38,7 +38,7 @@ export default class Product extends Component {
                   <i className="fa fa-star" />
                   <i className="fa fa-star-o" />
                 </div>
-                <h5 className="mb-0" style={{ color: "#343A40" }}>
+                <h5 className="mb-0" style={{ color: "#333333" }}>
                   <span className="mr-1">N</span>
                   {price}
                 </h5>

@@ -264,6 +264,9 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .bg-dark {
   background-color: #333333 !important; }
 
+.bg-dark1 {
+    background-color: #333333 !important; }  
+
 .bg-theme {
   background-color: #cea679 !important; }
 

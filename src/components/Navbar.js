@@ -1,27 +1,9 @@
 import React, { Component } from "react";
-import {
-  MDBNavbar,
-  MDBNavbarBrand,
-  MDBNavbarNav,
-  MDBNavItem,
-  MDBNavLink,
-  MDBNavbarToggler,
-  MDBCollapse
-} from "mdbreact";
-import { Button } from "@bit/grommet.grommet.button";
 
 import { Link } from "react-router-dom";
 import shop from "../shop.svg";
 
 class NavbarPage extends Component {
-  state = {
-    isOpen: false
-  };
-
-  toggleCollapse = () => {
-    this.setState({ isOpen: !this.state.isOpen });
-  };
-
   render() {
     return (
       <header className="header header-transparent header-sticky">

@@ -3,11 +3,6 @@ import React, { Component } from "react";
 import PaystackButton from "react-paystack";
 
 class App extends Component {
-  state = {
-    key: process.env.REACT_APP_APP_ID, //PAYSTACK PUBLIC KEY
-    email: "topfemo@gmail.com" // customer email
-  };
-
   callback = response => {
     console.log(response); // card charged successfully, get reference here
     this.props.clearCart();
@@ -42,9 +37,9 @@ class App extends Component {
             disabled={true}
             embed={true}
             reference={this.getReference()}
-            email={this.state.email}
+            email={this.props.email}
             amount={this.props.total}
-            paystackkey={this.state.key}
+            paystackkey={this.props.paystackkey}
             tag="button"
           />
         </p>

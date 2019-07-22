@@ -6,12 +6,46 @@ const ProductContext = React.createContext();
 //Consumer
 class ProductProvider extends Component {
   state = {
+    key: process.env.REACT_APP_APP_ID,
     products: [],
     detailProduct: detailProduct,
     cart: [],
     cartSubTotal: 0,
-    cartTotal: 0
+    cartTotal: 0,
+    shippingFee: 1000,
+    email: "",
+    name: "",
+    address: "",
+    phone: ""
   };
+
+  handleChangeName = this.handleChangeName.bind(this);
+  handleChangePhone = this.handleChangePhone.bind(this);
+  handleChangeAddress = this.handleChangeAddress.bind(this);
+  handleChangeEmail = this.handleChangeEmail.bind(this);
+  handleSubmit = this.handleSubmit.bind(this);
+
+  handleChangeName(event) {
+    this.setState({ name: event.target.value });
+  }
+
+  handleChangeEmail(event) {
+    this.setState({ email: event.target.value });
+  }
+
+  handleChangeAddress(event) {
+    this.setState({ address: event.target.value });
+  }
+
+  handleChangePhone(event) {
+    this.setState({ phone: event.target.value });
+  }
+
+  handleSubmit(event) {
+    alert("Saved!");
+    event.preventDefault();
+  }
+
   componentDidMount() {
     this.setProducts();
   }
@@ -134,12 +168,14 @@ class ProductProvider extends Component {
 
   addTotals = () => {
     let subTotal = 0;
+    const shippingFee = 1000;
     this.state.cart.map(item => (subTotal += item.total));
-    const total = subTotal;
+    const total = subTotal + shippingFee;
     this.setState(() => {
       return {
         cartSubTotal: subTotal,
-        cartTotal: total
+        cartTotal: total,
+        shippingFee: shippingFee
       };
     });
   };
@@ -154,7 +190,12 @@ class ProductProvider extends Component {
           increment: this.increment,
           decrement: this.decrement,
           removeItem: this.removeItem,
-          clearCart: this.clearCart
+          clearCart: this.clearCart,
+          handleChangeName: this.handleChangeName,
+          handleChangeAddress: this.handleChangeAddress,
+          handleChangePhone: this.handleChangePhone,
+          handleChangeEmail: this.handleChangeEmail,
+          handleSubmit: this.handleSubmit
         }}
       >
         {this.props.children}

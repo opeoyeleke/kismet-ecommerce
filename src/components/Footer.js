@@ -101,13 +101,6 @@ const FooterPage = () => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-6 col-md-6 col-sm-4">
-              <div className="footer-logo text-right">
-                <a href="index.html">
-                  <img src="assets/images/logofoo.png" alt="true" />
-                </a>
-              </div>
-            </div>
           </div>
         </div>
       </div>

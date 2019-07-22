@@ -9,6 +9,7 @@ body {
   font-weight: 500 !important;
   font-size: 17px !important;
   color: #333333 !important;
+  background: var(--mainWhite);
 }
 .text-purple {
   color: var(--mainColor);

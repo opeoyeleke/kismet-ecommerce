@@ -41,7 +41,7 @@ export default class Home extends Component {
                     <div className="hero-content-2 color-1 center">
                       <h2>kismet organics</h2>
                       <h1>lueur international</h1>
-                      <h3>Products now</h3>
+                      <h3>Check out our products</h3>
                       <Link to="/products">Shop Now</Link>
                     </div>
                     {/*Hero Content end*/}
@@ -269,62 +269,6 @@ export default class Home extends Component {
         </div>
         {/*Blog section end*/}
 
-        {/*Categorie Product section start*/}
-        <div className="categorie-product-section section">
-          <div className="container-fluid pl-0 pr-0">
-            <div className="row no-gutters">
-              <div className="col-lg-4 col-md-4">
-                {/* Single Categorie Product Start */}
-                <div className="single-categorie">
-                  <div className="categorie-image">
-                    <img src="assets/images/categorie/cate-1.png" alt />
-                  </div>
-                  <div className="categorie-content">
-                    <h3>Now introducing</h3>
-                    <a className="shop-btn" href="#">
-                      Shop now
-                    </a>
-                    <h1>Spa Optima+</h1>
-                  </div>
-                </div>
-                {/* Single Categorie Product End */}
-              </div>
-              <div className="col-lg-4 col-md-4">
-                {/* Single Categorie Product Start */}
-                <div className="single-categorie">
-                  <div className="categorie-image">
-                    <img src="assets/images/categorie/cate-2.png" alt />
-                  </div>
-                  <div className="categorie-content">
-                    <h3>Wrinkle cure</h3>
-                    <a className="shop-btn" href="#">
-                      Shop now
-                    </a>
-                    <h1>Time Revolution</h1>
-                  </div>
-                </div>
-                {/* Single Categorie Product End */}
-              </div>
-              <div className="col-lg-4 col-md-4">
-                {/* Single Categorie Product Start */}
-                <div className="single-categorie">
-                  <div className="categorie-image">
-                    <img src="assets/images/categorie/cate-3.png" alt />
-                  </div>
-                  <div className="categorie-content">
-                    <h3>Pretty perks for every point you earn</h3>
-                    <a className="shop-btn" href="#">
-                      Shop now
-                    </a>
-                    <h1>Beauty Squad</h1>
-                  </div>
-                </div>
-                {/* Single Categorie Product End */}
-              </div>
-            </div>
-          </div>
-        </div>
-        {/*Categorie Product section end*/}
         {/*Footer section start*/}
 
         {/*Footer section end*/}
