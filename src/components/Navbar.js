@@ -21,24 +21,23 @@ class NavbarPage extends Component {
               {/*Logo end*/}
               {/*Menu start*/}
               <div className="col-lg-6 col-md-6 col-12 order-lg-2 order-md-2 order-3 d-flex justify-content-center">
-                <nav className="main-menu color-white">
-                  <ul>
-                    <li>
-                      <Link to="/">Home </Link>
-                    </li>
-                    <li>
-                      <Link to="/products">Shop </Link>
-                    </li>
-
-                    <li>
-                      <Link to="/about">About </Link>
-                    </li>
-                  </ul>
-                </nav>
+                <nav className="main-menu color-white" />
               </div>
               {/*Menu end*/}
               {/*Search Cart Start*/}
               <div className="col-lg-3 col-md-3 col-6 order-lg-3 order-md-3 order-2 d-flex justify-content-end">
+                <Link
+                  className="main-menu color-white"
+                  style={{
+                    color: "white",
+                    marginRight: "12px",
+                    marginTop: "9px",
+                    fontSize: "19px"
+                  }}
+                  to="/products"
+                >
+                  SHOP{" "}
+                </Link>
                 <div className="header-cart color-white">
                   <Link to="/cart">
                     <i className="fa fa-shopping-cart" />

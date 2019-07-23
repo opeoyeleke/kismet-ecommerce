@@ -94,8 +94,8 @@ const FooterPage = () => {
       <div className="footer-bottom section">
         <div className="container ft-border pt-40 pb-40 pt-xs-20 pb-xs-20">
           <div className="row justify-content-between align-items-center">
-            <div className="col-lg-6 col-md-6 col-sm-8">
-              <div className="copyright text-left">
+            <div className="col-lg-12 col-md-6 col-sm-8">
+              <div className="copyright text-center">
                 <p>
                   Copyright ©2019. KISMET International, All rights reserved.
                 </p>
