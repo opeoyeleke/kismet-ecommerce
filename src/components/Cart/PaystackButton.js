@@ -3,6 +3,10 @@ import React, { Component } from "react";
 import PaystackButton from "react-paystack";
 
 class App extends Component {
+  state = {
+    key: process.env.REACT_APP_APP_ID
+  };
+
   callback = response => {
     console.log(response); // card charged successfully, get reference here
     this.props.clearCart();
@@ -39,7 +43,7 @@ class App extends Component {
             reference={this.getReference()}
             email={this.props.email}
             amount={this.props.total}
-            paystackkey={this.props.paystackkey}
+            paystackkey={this.state.key}
             tag="button"
           />
         </p>

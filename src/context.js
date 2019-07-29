@@ -6,13 +6,12 @@ const ProductContext = React.createContext();
 //Consumer
 class ProductProvider extends Component {
   state = {
-    key: process.env.REACT_APP_APP_ID,
     products: [],
     detailProduct: detailProduct,
     cart: [],
     cartSubTotal: 0,
     cartTotal: 0,
-    shippingFee: 1000,
+    shippingFee: 1500,
     email: "",
     name: "",
     address: "",
@@ -168,7 +167,7 @@ class ProductProvider extends Component {
 
   addTotals = () => {
     let subTotal = 0;
-    const shippingFee = 1000;
+    const shippingFee = 1500;
     this.state.cart.map(item => (subTotal += item.total));
     const total = subTotal + shippingFee;
     this.setState(() => {

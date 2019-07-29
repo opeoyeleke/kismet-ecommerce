@@ -7,7 +7,7 @@ export default function CartTotals({ value, history }) {
   const {
     cartSubTotal,
     cartTotal,
-    key,
+    cart,
     email,
     clearCart,
     shippingFee,
@@ -73,7 +73,7 @@ export default function CartTotals({ value, history }) {
                                   onChange={handleChangePhone}
                                 />
                               </div>
-                              <div className="col-md-6 col-12 mb-25">
+                              <div className="col-md-12 col-12 mb-25">
                                 <Button
                                   primary={false}
                                   style={{
@@ -82,7 +82,7 @@ export default function CartTotals({ value, history }) {
                                     borderColor: "#CEA679",
                                     marginBottom: "10px"
                                   }}
-                                  label="Submit"
+                                  label="Save"
                                   type="Submit"
                                 >
                                   {}
@@ -107,7 +107,7 @@ export default function CartTotals({ value, history }) {
                               Total <span>N{cartTotal}</span>
                             </h2>
                           </div>
-                          <div>
+                          <div className="text-center">
                             <Link to="/">
                               <Button
                                 primary={false}
@@ -140,9 +140,10 @@ export default function CartTotals({ value, history }) {
               total={cartTotal * 100}
               clearCart={clearCart}
               history={history}
-              paystackkey={key}
               email={email}
               style={{ textAlign: "center" }}
+              phone={phone}
+              name={name}
             />
           </div>
         </div>
