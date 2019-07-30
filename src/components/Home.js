@@ -146,7 +146,7 @@ export default class Home extends Component {
                         ]'
             >
               {/* Single Blog Start */}
-              <div className="blog col">
+              <div className="blog col-6">
                 <div className="blog-inner">
                   <div className="media">
                     <span className="image">
@@ -154,16 +154,13 @@ export default class Home extends Component {
                     </span>
                   </div>
                   <div className="content">
-                    <p>
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum{" "}
-                    </p>
+                    <p>White Dotted Crop Top available for order at N3000 </p>
                   </div>
                 </div>
               </div>
               {/* Single Blog End */}
               {/* Single Blog Start */}
-              <div className="blog col">
+              <div className="blog col-6">
                 <div className="blog-inner">
                   <div className="media">
                     <span className="image">
@@ -171,16 +168,13 @@ export default class Home extends Component {
                     </span>
                   </div>
                   <div className="content">
-                    <p>
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum{" "}
-                    </p>
+                    <p>White Dotted Peplum Top available for order at N3000 </p>
                   </div>
                 </div>
               </div>
               {/* Single Blog End */}
               {/* Single Blog Start */}
-              <div className="blog col">
+              <div className="blog col col-6">
                 <div className="blog-inner">
                   <div className="media">
                     <span className="image">
@@ -189,15 +183,14 @@ export default class Home extends Component {
                   </div>
                   <div className="content">
                     <p>
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum{" "}
+                      <p>Black Peplum Top available for order at N3000 </p>
                     </p>
                   </div>
                 </div>
               </div>
               {/* Single Blog End */}
               {/* Single Blog Start */}
-              <div className="blog col">
+              <div className="blog col-6">
                 <div className="blog-inner">
                   <div className="media">
                     <span className="image">
@@ -207,8 +200,10 @@ export default class Home extends Component {
                   <div className="content">
                     <p>
                       {" "}
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum{" "}
+                      <p>
+                        Blue Dotted Off-shoulder Top available for order at
+                        N3000{" "}
+                      </p>
                     </p>
                   </div>
                 </div>
@@ -351,112 +346,7 @@ export default class Home extends Component {
                     </div>
                     <div className="col-xl-7 col-lg-6 col-md-6">
                       {/* product detail content */}
-                      {/*Product Details Content Start*/}
-                      <div className="product-details-content">
-                        {/*Product Nav Start*/}
-                        <div className="product-nav">
-                          <a href="#">
-                            <i className="fa fa-angle-left" />
-                          </a>
-                          <a href="#">
-                            <i className="fa fa-angle-right" />
-                          </a>
-                        </div>
-                        {/*Product Nav End*/}
-                        <h2>White Shave Brux</h2>
-                        <div className="single-product-reviews">
-                          <i className="fa fa-star" />
-                          <i className="fa fa-star" />
-                          <i className="fa fa-star" />
-                          <i className="fa fa-star" />
-                          <i className="fa fa-star-o" />
-                          <a className="review-link" href="#">
-                            (1 customer review)
-                          </a>
-                        </div>
-                        <div className="single-product-price">
-                          <span className="price new-price">$66.00</span>
-                          <span className="regular-price">$77.00</span>
-                        </div>
-                        <div className="product-description">
-                          <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco,Proin lectus ipsum,
-                            gravida et mattis vulputate, tristique ut lectus
-                          </p>
-                        </div>
-                        <div className="single-product-quantity">
-                          <form className="add-quantity" action="#">
-                            <div className="product-quantity">
-                              <input defaultValue={1} type="number" />
-                            </div>
-                            <div className="add-to-link">
-                              <button
-                                className="product-add-btn"
-                                data-text="add to cart"
-                              >
-                                add to cart
-                              </button>
-                            </div>
-                          </form>
-                        </div>
-                        <div className="wishlist-compare-btn">
-                          <a
-                            href="#"
-                            className="wishlist-btn mb-md-10 mb-sm-10"
-                          >
-                            Add to Wishlist
-                          </a>
-                          <a href="#" className="add-compare">
-                            Compare
-                          </a>
-                        </div>
-                        <div className="product-meta">
-                          <span className="posted-in">
-                            Categories:
-                            <a href="#">Accessories</a>,
-                            <a href="#">Electronics</a>
-                          </span>
-                        </div>
-                        <div className="single-product-sharing">
-                          <h3>Share this product</h3>
-                          <ul>
-                            <li>
-                              <a href="#">
-                                <i className="fa fa-twitter" />
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#">
-                                <i className="fa fa-facebook" />
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#">
-                                <i className="fa fa-google-plus" />
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#">
-                                <i className="fa fa-pinterest" />
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#">
-                                <i className="fa fa-instagram" />
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#">
-                                <i className="fa fa-vimeo" />
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      {/*Product Details Content End*/}
+
                       {/* End of product detail content */}
                     </div>
                   </div>
