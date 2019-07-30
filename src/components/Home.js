@@ -62,7 +62,7 @@ export default class Home extends Component {
                 <div className="section-title-two mb-40 mb-xs-20">
                   <span>our</span>
                   <h2>Featured</h2>
-                  <span>proucts</span>
+                  <span>products</span>
                 </div>
                 {/* Section Title End */}
               </div>
@@ -201,7 +201,7 @@ export default class Home extends Component {
                 <div className="blog-inner">
                   <div className="media">
                     <span className="image">
-                      <img src="assets/images/blog/blog1.png" alt />
+                      <img src="assets/images/blog/blog4.png" alt />
                     </span>
                   </div>
                   <div className="content">
