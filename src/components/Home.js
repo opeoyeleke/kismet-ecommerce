@@ -96,10 +96,9 @@ export default class Home extends Component {
             <div className="row">
               <div className="col-12">
                 <div className="banner-content">
-                  <h2>A Single Step Skin Perfector!</h2>
-                  <h1>With Kismetlueur</h1>
-                  <h3>organic products</h3>
-                  <Link to="/products">Shop Collection Now</Link>
+                  <h2>Check Out</h2>
+                  <h1> kismet Couture</h1>
+                  <h3>BESPOKE COLLECTION</h3>
                 </div>
               </div>
             </div>
@@ -114,7 +113,7 @@ export default class Home extends Component {
               {/* Section Title Start */}
               <div className="col">
                 <div className="section-title mb-40 mb-xs-20">
-                  <h2>From the blog</h2>
+                  {/* <h2>kISMET COUTURE</h2> */}
                 </div>
               </div>
               {/* Section Title End */}
@@ -156,7 +155,7 @@ export default class Home extends Component {
                       <img src="assets/images/blog/blog1.png" alt />
                     </span>
                   </div>
-                  <div className="content">
+                  {/* <div className="content">
                     <h3 className="title">Cool boy with tattoo</h3>
                     <ul className="meta">
                       <li>
@@ -173,7 +172,7 @@ export default class Home extends Component {
                       esse cillum dolore eu fugiat nulla pariatur. Excepteur
                       sint occaecat{" "}
                     </p>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               {/* Single Blog End */}
@@ -184,24 +183,6 @@ export default class Home extends Component {
                     <span className="image">
                       <img src="assets/images/blog/blog2.png" alt />
                     </span>
-                  </div>
-                  <div className="content">
-                    <h3 className="title">Blog image post</h3>
-                    <ul className="meta">
-                      <li>
-                        <i className="fa fa-calendar" />
-                        <span className="date-time">
-                          <span className="date">20</span>
-                          <span className="separator">-</span>
-                          <span className="month">Jul</span>
-                        </span>
-                      </li>
-                    </ul>
-                    <p>
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat{" "}
-                    </p>
                   </div>
                 </div>
               </div>
@@ -214,24 +195,6 @@ export default class Home extends Component {
                       <img src="assets/images/blog/blog3.png" alt />
                     </span>
                   </div>
-                  <div className="content">
-                    <h3 className="title">Blog image post </h3>
-                    <ul className="meta">
-                      <li>
-                        <i className="fa fa-calendar" />
-                        <span className="date-time">
-                          <span className="date">20</span>
-                          <span className="separator">-</span>
-                          <span className="month">Jul</span>
-                        </span>
-                      </li>
-                    </ul>
-                    <p>
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat{" "}
-                    </p>
-                  </div>
                 </div>
               </div>
               {/* Single Blog End */}
@@ -242,24 +205,6 @@ export default class Home extends Component {
                     <span className="image">
                       <img src="assets/images/blog/blog1.png" alt />
                     </span>
-                  </div>
-                  <div className="content">
-                    <h3 className="title">Blog image post </h3>
-                    <ul className="meta">
-                      <li>
-                        <i className="fa fa-calendar" />
-                        <span className="date-time">
-                          <span className="date">20</span>
-                          <span className="separator">-</span>
-                          <span className="month">Jul</span>
-                        </span>
-                      </li>
-                    </ul>
-                    <p>
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat{" "}
-                    </p>
                   </div>
                 </div>
               </div>
