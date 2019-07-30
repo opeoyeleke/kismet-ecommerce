@@ -112,9 +112,7 @@ export default class Home extends Component {
             <div className="row">
               {/* Section Title Start */}
               <div className="col">
-                <div className="section-title mb-40 mb-xs-20">
-                  {/* <h2>kISMET COUTURE</h2> */}
-                </div>
+                <div className="section-title mb-40 mb-xs-20" />
               </div>
               {/* Section Title End */}
             </div>
@@ -155,24 +153,12 @@ export default class Home extends Component {
                       <img src="assets/images/blog/blog1.png" alt />
                     </span>
                   </div>
-                  {/* <div className="content">
-                    <h3 className="title">Cool boy with tattoo</h3>
-                    <ul className="meta">
-                      <li>
-                        <i className="fa fa-calendar" />
-                        <span className="date-time">
-                          <span className="date">20</span>
-                          <span className="separator">-</span>
-                          <span className="month">Jul</span>
-                        </span>
-                      </li>
-                    </ul>
+                  <div className="content">
                     <p>
                       Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat{" "}
+                      esse cillum{" "}
                     </p>
-                  </div> */}
+                  </div>
                 </div>
               </div>
               {/* Single Blog End */}
@@ -183,6 +169,12 @@ export default class Home extends Component {
                     <span className="image">
                       <img src="assets/images/blog/blog2.png" alt />
                     </span>
+                  </div>
+                  <div className="content">
+                    <p>
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum{" "}
+                    </p>
                   </div>
                 </div>
               </div>
@@ -195,6 +187,12 @@ export default class Home extends Component {
                       <img src="assets/images/blog/blog3.png" alt />
                     </span>
                   </div>
+                  <div className="content">
+                    <p>
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum{" "}
+                    </p>
+                  </div>
                 </div>
               </div>
               {/* Single Blog End */}
@@ -205,6 +203,13 @@ export default class Home extends Component {
                     <span className="image">
                       <img src="assets/images/blog/blog1.png" alt />
                     </span>
+                  </div>
+                  <div className="content">
+                    <p>
+                      {" "}
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum{" "}
+                    </p>
                   </div>
                 </div>
               </div>
