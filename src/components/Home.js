@@ -148,13 +148,15 @@ export default class Home extends Component {
               {/* Single Blog Start */}
               <div className="blog col-6">
                 <div className="blog-inner">
-                  <div className="media">
+                  <span className="sticker">Bertha</span>
+
+                  <div className="media single-product">
                     <span className="image">
                       <img src="assets/images/blog/blog1.png" alt />
                     </span>
                   </div>
                   <div className="content">
-                    <p>White Dotted Crop Top available for order at N3000 </p>
+                    <p>White Dotted Crop Top available at N3000 </p>
                   </div>
                 </div>
               </div>
@@ -162,13 +164,15 @@ export default class Home extends Component {
               {/* Single Blog Start */}
               <div className="blog col-6">
                 <div className="blog-inner">
+                  <span className="sticker">Kismet</span>
+
                   <div className="media">
                     <span className="image">
                       <img src="assets/images/blog/blog2.png" alt />
                     </span>
                   </div>
                   <div className="content">
-                    <p>White Dotted Peplum Top available for order at N3000 </p>
+                    <p>White Dotted Peplum Top available at N3000 </p>
                   </div>
                 </div>
               </div>
@@ -176,6 +180,8 @@ export default class Home extends Component {
               {/* Single Blog Start */}
               <div className="blog col col-6">
                 <div className="blog-inner">
+                  <span className="sticker">Bella</span>
+
                   <div className="media">
                     <span className="image">
                       <img src="assets/images/blog/blog3.png" alt />
@@ -183,7 +189,7 @@ export default class Home extends Component {
                   </div>
                   <div className="content">
                     <p>
-                      <p>Black Peplum Top available for order at N3000 </p>
+                      <p>Black Peplum Top available at N3000 </p>
                     </p>
                   </div>
                 </div>
@@ -192,6 +198,8 @@ export default class Home extends Component {
               {/* Single Blog Start */}
               <div className="blog col-6">
                 <div className="blog-inner">
+                  <span className="sticker text-center">Nini</span>
+
                   <div className="media">
                     <span className="image">
                       <img src="assets/images/blog/blog4.png" alt />
@@ -200,10 +208,45 @@ export default class Home extends Component {
                   <div className="content">
                     <p>
                       {" "}
-                      <p>
-                        Blue Dotted Off-shoulder Top available for order at
-                        N3000{" "}
-                      </p>
+                      <p>Blue Dotted Off-shoulder Top available at N3000 </p>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              {/* Single Blog End */}
+              {/* Single Blog Start */}
+              <div className="blog col-6">
+                <div className="blog-inner">
+                  <span className="sticker text-center">Sharon</span>
+
+                  <div className="media">
+                    <span className="image">
+                      <img src="assets/images/blog/blog5.png" alt />
+                    </span>
+                  </div>
+                  <div className="content">
+                    <p>
+                      {" "}
+                      <p>Blue Dotted Top available at N3000 </p>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              {/* Single Blog End */}
+              {/* Single Blog Start */}
+              <div className="blog col-6">
+                <div className="blog-inner">
+                  <span className="sticker text-center">Sharon</span>
+
+                  <div className="media">
+                    <span className="image">
+                      <img src="assets/images/blog/blog6.png" alt />
+                    </span>
+                  </div>
+                  <div className="content">
+                    <p>
+                      {" "}
+                      <p>Blue Dotted Top available at N3000 </p>
                     </p>
                   </div>
                 </div>

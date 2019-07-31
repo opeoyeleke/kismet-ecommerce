@@ -77,7 +77,7 @@ const FooterPage = () => {
                 </li>
                 <li>
                   <i className="fa fa-phone" />
-                  <span>0902 343 1431, 0817 911 9011</span>
+                  <span>0902 343 1431, 0808 778 7030</span>
                 </li>
                 <li>
                   <i className="fa fa-envelope-o" />

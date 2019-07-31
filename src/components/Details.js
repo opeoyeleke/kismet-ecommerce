@@ -165,7 +165,6 @@ export default class Details extends Component {
                               </div>
                               <div className="tab-pane fade" id="reviews">
                                 <div className="review-page-comment">
-                                  <h2> review for Sit voluptatem</h2>
                                   <ul>
                                     <li>
                                       <div className="product-comment">
