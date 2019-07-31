@@ -39,9 +39,13 @@ export default class Home extends Component {
                   <div className="col-12">
                     {/*Hero Content start*/}
                     <div className="hero-content-2 color-1 center">
-                      <h2>kismet organics</h2>
-                      <h1>lueur international</h1>
-                      <h3>Check out our products</h3>
+                      <h1>kismet organics</h1>
+                      <h1>lueur </h1>
+                      <h2>
+                        cruelty-free, skin glow guaranteed, affordable and
+                        effective
+                      </h2>
+                      <h3>skincare products</h3>
                       <Link to="/products">Shop Now</Link>
                     </div>
                     {/*Hero Content end*/}
