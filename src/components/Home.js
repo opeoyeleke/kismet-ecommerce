@@ -57,6 +57,50 @@ export default class Home extends Component {
           </div>
         </div>
         {/*slider section end*/}
+
+        <div className="categorie-product-section section">
+          <div className="container-fluid pl-0 pr-0">
+            <div className="row no-gutters">
+              <div className="col-lg-4 col-md-4">
+                {/* Single Categorie Product Start */}
+                <div className="single-categorie">
+                  <div className="categorie-image">
+                    <img src="assets/images/categorie/cate-1.png" alt="" />
+                  </div>
+                  <div className="categorie-content">
+                    <h1>Cruelty Free</h1>
+                  </div>
+                </div>
+                {/* Single Categorie Product End */}
+              </div>
+              <div className="col-lg-4 col-md-4">
+                {/* Single Categorie Product Start */}
+                <div className="single-categorie">
+                  <div className="categorie-image">
+                    <img src="assets/images/categorie/cate-2.png" alt="" />
+                  </div>
+                  <div className="categorie-content">
+                    <h1>Skin Glow Guaranteed</h1>
+                  </div>
+                </div>
+                {/* Single Categorie Product End */}
+              </div>
+              <div className="col-lg-4 col-md-4">
+                {/* Single Categorie Product Start */}
+                <div className="single-categorie">
+                  <div className="categorie-image">
+                    <img src="assets/images/categorie/cate-3.png" alt="" />
+                  </div>
+                  <div className="categorie-content">
+                    <h1>Affordable and Effective</h1>
+                  </div>
+                </div>
+                {/* Single Categorie Product End */}
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/*Product section start*/}
         <div className="product-section section pt-100 pt-lg-80 pt-md-70 pt-sm-50 pt-xs-40 pb-70 pb-lg-50 pb-md-40 pb-sm-30 pb-xs-20">
           <div className="container-fluid pl-75 pr-75 pl-lg-15 pr-lg-15 pl-md-15 pr-md-15 pl-sm-15 pr-sm-15 pl-xs-15 pr-xs-15 text-center">
