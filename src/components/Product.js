@@ -20,7 +20,6 @@ export default class Product extends Component {
                 <Link to="/details">
                   <img src={img} alt="product" className="card-img-top" />
                 </Link>
-                <span className="sticker">New</span>
               </div>
             )}
           </ProductConsumer>
@@ -36,7 +35,7 @@ export default class Product extends Component {
                   <i className="fa fa-star" />
                   <i className="fa fa-star" />
                   <i className="fa fa-star" />
-                  <i className="fa fa-star-o" />
+                  <i className="fa fa-star" />
                 </div>
                 <h5 className="mb-0" style={{ color: "#333333" }}>
                   <span className="mr-1">N</span>
