@@ -193,98 +193,23 @@ export default class Home extends Component {
                         }}
                         ]'
             >
-              {/* Single Blog Start */}
-              <div className="blog col-6">
-                <div className="blog-inner">
-                  <span className="sticker">Bertha (N3000)</span>
-
-                  <div className="media single-product">
-                    <span className="image">
-                      <img src="assets/images/blog/blog1.png" alt />
-                    </span>
-                  </div>
-                  <div className="content" />
-                </div>
-              </div>
-              {/* Single Blog End */}
-              {/* Single Blog Start */}
-              <div className="blog col-6">
-                <div className="blog-inner">
-                  <span className="sticker">Kismet (N3000)</span>
-
-                  <div className="media">
-                    <span className="image">
-                      <img src="assets/images/blog/blog2.png" alt />
-                    </span>
-                  </div>
-                  <div className="content" />
-                </div>
-              </div>
-              {/* Single Blog End */}
-              {/* Single Blog Start */}
-              <div className="blog col col-6">
-                <div className="blog-inner">
-                  <span className="sticker">Bella (N3000)</span>
-
-                  <div className="media">
-                    <span className="image">
-                      <img src="assets/images/blog/blog3.png" alt />
-                    </span>
-                  </div>
-                  <div className="content">
-                    <p />
+              <React.Fragment>
+                <div className="py-4">
+                  <div className="container">
+                    <div className="row">
+                      <ProductConsumer>
+                        {value => {
+                          return value.products.slice(6, 12).map(product => {
+                            return (
+                              <Product key={product.id} product={product} />
+                            );
+                          });
+                        }}
+                      </ProductConsumer>
+                    </div>
                   </div>
                 </div>
-              </div>
-              {/* Single Blog End */}
-              {/* Single Blog Start */}
-              <div className="blog col-6">
-                <div className="blog-inner">
-                  <span className="sticker text-center">Nini (N3000) </span>
-
-                  <div className="media">
-                    <span className="image">
-                      <img src="assets/images/blog/blog4.png" alt />
-                    </span>
-                  </div>
-                  <div className="content">
-                    <p> </p>
-                  </div>
-                </div>
-              </div>
-              {/* Single Blog End */}
-              {/* Single Blog Start */}
-              <div className="blog col-6">
-                <div className="blog-inner">
-                  <span className="sticker text-center">Sharon (N3000)</span>
-
-                  <div className="media">
-                    <span className="image">
-                      <img src="assets/images/blog/blog5.png" alt />
-                    </span>
-                  </div>
-                  <div className="content">
-                    <p> </p>
-                  </div>
-                </div>
-              </div>
-              {/* Single Blog End */}
-              {/* Single Blog Start */}
-              <div className="blog col-6">
-                <div className="blog-inner">
-                  <span className="sticker text-center">Sharon (N3000)</span>
-
-                  <div className="media">
-                    <span className="image">
-                      <img src="assets/images/blog/blog6.png" alt />
-                    </span>
-                  </div>
-                  <div className="content">
-                    <p> </p>
-                  </div>
-                </div>
-              </div>
-              {/* Single Blog End */}
+              </React.Fragment>
             </div>
           </div>
         </div>

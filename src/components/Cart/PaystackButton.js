@@ -45,6 +45,7 @@ class App extends Component {
             amount={this.props.total}
             paystackkey={this.state.key}
             tag="button"
+            firstname={this.props.name}
           />
         </p>
       </div>

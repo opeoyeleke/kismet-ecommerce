@@ -64,6 +64,70 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0
+  },
+  {
+    id: 7,
+    title: "Bertha Top",
+    img: "img/blog1.png",
+    price: 3000,
+    info: "",
+    inCart: false,
+    count: 0,
+    total: 0
+  },
+  {
+    id: 8,
+    title: "Kismet Top",
+    img: "img/blog2.png",
+    price: 3000,
+    info: "",
+    inCart: false,
+    count: 0,
+    total: 0
+  },
+  {
+    id: 9,
+    title: "Bella Top",
+    img: "img/blog3.png",
+    price: 3000,
+    info:
+      "Specially formulated for sensitive skin. It gives a healthy glow and moisturizes the skin. It is non-greasy. Ingredients: Rosa Canina (Rosehip oil) , Helianthus Annuus (sunflower oil), Tocopherol (vitamin E oil) Pomegranate seed oil, Tumeric fruit extract, Sandalwood oil, citrus sinensis. Direction: use twice daily on a clean skin. Watch for allergies and stop use if allergic. Suitable for all skin types",
+    inCart: false,
+    count: 0,
+    total: 0
+  },
+  {
+    id: 10,
+    title: "Nini Top",
+    img: "img/blog4.png",
+    price: 3000,
+    info:
+      "Specially formulated for sensitive skin. It gives a healthy glow and moisturizes the skin. It is non-greasy. Ingredients: Rosa Canina (Rosehip oil) , Helianthus Annuus (sunflower oil), Tocopherol (vitamin E oil) Pomegranate seed oil, Tumeric fruit extract, Sandalwood oil, citrus sinensis. Direction: use twice daily on a clean skin. Watch for allergies and stop use if allergic. Suitable for all skin types",
+    inCart: false,
+    count: 0,
+    total: 0
+  },
+  {
+    id: 11,
+    title: "Sharon Top",
+    img: "img/blog5.png",
+    price: 3000,
+    info:
+      "Specially formulated for sensitive skin. It gives a healthy glow and moisturizes the skin. It is non-greasy. Ingredients: Rosa Canina (Rosehip oil) , Helianthus Annuus (sunflower oil), Tocopherol (vitamin E oil) Pomegranate seed oil, Tumeric fruit extract, Sandalwood oil, citrus sinensis. Direction: use twice daily on a clean skin. Watch for allergies and stop use if allergic. Suitable for all skin types",
+    inCart: false,
+    count: 0,
+    total: 0
+  },
+  {
+    id: 12,
+    title: "Sharon Top",
+    img: "img/blog6.png",
+    price: 3000,
+    info:
+      "Specially formulated for sensitive skin. It gives a healthy glow and moisturizes the skin. It is non-greasy. Ingredients: Rosa Canina (Rosehip oil) , Helianthus Annuus (sunflower oil), Tocopherol (vitamin E oil) Pomegranate seed oil, Tumeric fruit extract, Sandalwood oil, citrus sinensis. Direction: use twice daily on a clean skin. Watch for allergies and stop use if allergic. Suitable for all skin types",
+    inCart: false,
+    count: 0,
+    total: 0
   }
 ];
 
