@@ -92,7 +92,7 @@ export default function CartTotals({ value, history }) {
                           </form>
                         </div>
                       </div>
-                      {/* Cart Summary */}
+
                       <div className="col-lg-6 col-12 mb-30 d-flex">
                         <div className="cart-summary">
                           <div className="cart-summary-wrap">

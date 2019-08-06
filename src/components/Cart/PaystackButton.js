@@ -46,6 +46,7 @@ class App extends Component {
             paystackkey={this.state.key}
             tag="button"
             firstname={this.props.name}
+            metadata={this.metadata}
           />
         </p>
       </div>
